@@ -12,7 +12,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: sample-vm-pvc-10
   labels:
-    appname: vm-standalone-dv-odr-regional-10
+    appname: app-set-vm-standalone-pvc-odr-regional-kev10
 spec:
   dataSourceRef:
     apiGroup: cdi.kubevirt.io
