@@ -3,7 +3,7 @@ kind: VirtualMachine
 metadata:
   annotations:
   labels:
-    appname: vm-standalone-dv-odr-regional
+    appname: vm-standalone-dv-odr-regional-10
   name: sample-vm
 spec:
   running: true
@@ -29,7 +29,7 @@ spec:
           - name: cloudinit
             disk: {}
           interfaces:
-          - macAddress: 02:69:36:50:00:00
+          - macAddress: 02:69:36:01:00:00
             masquerade: {}
             model: virtio
             name: default
@@ -49,7 +49,7 @@ spec:
       terminationGracePeriodSeconds: 180
       volumes:
       - persistentVolumeClaim:
-          claimName: sample-vm-pvc
+          claimName: sample-vm-pvc-10
         name: rootdisk
       - name: cloudinit
         cloudInitNoCloud:
