@@ -3,7 +3,7 @@ kind: VirtualMachine
 metadata:
   annotations:
   labels:
-    appname: vm-standalone-dv-odr-regional-10
+    appname: app-set-vm-standalone-pvc-odr-regional-kev10
   name: sample-vm
 spec:
   running: true
